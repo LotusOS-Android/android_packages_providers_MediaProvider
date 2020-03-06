@@ -3927,7 +3927,7 @@ public class MediaProvider extends ContentProvider {
                         Context.MODE_PRIVATE);
                 final SharedPreferences.Editor editor = scanSettings.edit();
                 editor.putString(android.media.MediaScanner.LAST_INTERNAL_SCAN_FINGERPRINT,
-                        Build.CUSTOM_FINGERPRINT);
+                        Build.LOTUS_FINGERPRINT);
                 editor.apply();
             }
             mMediaScannerVolume = null;
